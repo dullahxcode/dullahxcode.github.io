@@ -39,14 +39,14 @@ body {
   padding-top: 20%;
   padding-bottom: 10%;
 }
-.welcome h4 {
+.welcome h3 {
   font-weight: bold;
   color: #fff;
   text-shadow: 4px 4px 5px rgb(0,0,0,.5);
 }
 .welcome h6 {
   font-family: Monospace;
-  color: #e7e7e7;
+  color: black;
   margin-bottom: 4%;
 }
 .bats {
@@ -110,15 +110,16 @@ path {
   color: black;
 }
 #click {
-  display: none;
-  padding: 14px;
-  bottom: 11%;
-  border-radius: 5%;
-  right: 30px;
-  border: none;
-  background-color: red;
-  position: fixed;
-  text-align: center;
+	background: #4a4343cb !important;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    bottom: 10%;
+    right: 10%;
+    border: 1px solid black;
+    position: fixed;
+    border-radius: 50%;
+   display: none;
 }
 .bt {
   margin-right: 5%;
@@ -166,9 +167,6 @@ footer {
   }
   .welcome {
     padding-top: 21%;
-  }
-  .welcome h4 {
-    font-size: 70px;
   }
   .welcome h6 {
     padding-top: 20px;
