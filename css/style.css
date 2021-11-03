@@ -73,8 +73,18 @@ path {
   text-transform: uppercase;
   margin: 20px 0;
 }
-
-
+.hobi {
+	width: 100%;
+    max-width: 600px;
+    padding: 0 20px;
+}
+.hobi-name {
+	font-size: 18px;
+    font-weight: 700;
+    color: black;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
 .bx-s {
   margin: 0 10px;
   box-shadow: 2px 3px 4px rgb(0,0,0,0.3);
