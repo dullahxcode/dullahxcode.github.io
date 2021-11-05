@@ -44,11 +44,6 @@ body {
   color: #fff;
   text-shadow: 4px 4px 5px rgb(0,0,0,.5);
 }
-.welcome h6 {
-  font-family: Monospace;
-  color: black;
-  margin-bottom: 4%;
-}
 .bats {
   margin-top: 15%;
 }
@@ -73,18 +68,6 @@ path {
   text-transform: uppercase;
   margin: 20px 0;
 }
-.hobi {
-	width: 100%;
-    max-width: 600px;
-    padding: 0 20px;
-}
-.hobi-name {
-	font-size: 18px;
-    font-weight: 700;
-    color: black;
-    text-transform: uppercase;
-    margin: 20px 0;
-}
 .bx-s {
   margin: 0 10px;
   box-shadow: 2px 3px 4px rgb(0,0,0,0.3);
@@ -101,9 +84,9 @@ path {
   margin-bottom: 20px;
 }
 .fnt-m {
-  margin-top: 20px;
-  font-family: Monospace;
-  font-size: 20px;
+	margin-top: 35px;
+    font-size: 20px;
+    text-shadow: 2px 3px 2px rgb(0,0,0,0.3);
 }
 .kecil {
   text-transform: uppercase;
@@ -119,8 +102,20 @@ path {
   font-weight: bold;
   color: black;
 }
+.about {
+	margin-top: 10vh;
+    font-weight: bold;
+ }
+ .title {
+  border-bottom: 5px solid #008B8B;
+  display: inline-block;
+}
+ .sos {
+  border-bottom: 5px solid green;
+  display: inline-block;
+}
 #click {
-    background: #4a4343cb !important;
+	background: #4a4343cb !important;
     width: 50px;
     height: 50px;
     text-align: center;
